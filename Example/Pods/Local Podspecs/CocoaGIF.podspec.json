@@ -4,7 +4,10 @@
   "summary": "A short description of CocoaGIF.",
   "description": "                   A longer description of CocoaGIF in Markdown format.\n\n                   * Think: Why did you write this? What is the focus? What does it do?\n                   * CocoaPods will be using this to generate tags, and improve search results.\n                   * Try to keep it short, snappy and to the point.\n                   * Finally, don't worry about the indent, CocoaPods strips it!\n",
   "homepage": "http://EXAMPLE/CocoaGIF",
-  "license": "MIT (example)",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "wenbi": "wenbi@alipay.com"
   },

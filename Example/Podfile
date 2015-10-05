@@ -4,7 +4,7 @@
 target 'GifExample' do
 
 # pod 'CocoaGIF', :path => "../"
-pod 'CocoaGIF', :podspec => 'https://github.com/joywek/CocoaGIF/blob/master/CocoaGIF.podspec'
+pod 'CocoaGIF', :podspec => 'https://raw.githubusercontent.com/joywek/CocoaGIF/master/CocoaGIF.podspec'
 pod 'AFNetworking'
 
 end
