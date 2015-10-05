@@ -7,16 +7,24 @@
 //
 
 #import "ViewController.h"
+#import <CocoaGIF/GIFSource.h>
+#import <CocoaGIF/GIFView.h>
 
 @interface ViewController ()
+
+@property(nonatomic, strong) IBOutlet GIFView *gifView;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"20148114315183804" ofType:@"gif"];
+    GIFSource *source = [[GIFSource alloc] initWithContentsOfFile:path];
+    self.gifView.source = source;
 }
 
 - (void)didReceiveMemoryWarning {

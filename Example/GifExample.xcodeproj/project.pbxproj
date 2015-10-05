@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724DCCF9252FF12661FA6066 /* libPods-GifExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AB157288497460BD3EE97F /* libPods-GifExample.a */; };
 		A21442091BC218710058BC99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21442081BC218710058BC99 /* main.m */; };
 		A214420C1BC218710058BC99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A214420B1BC218710058BC99 /* AppDelegate.m */; };
 		A214420F1BC218710058BC99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A214420E1BC218710058BC99 /* ViewController.m */; };
 		A21442121BC218710058BC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21442101BC218710058BC99 /* Main.storyboard */; };
 		A21442141BC218710058BC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21442131BC218710058BC99 /* Assets.xcassets */; };
 		A21442171BC218710058BC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21442151BC218710058BC99 /* LaunchScreen.storyboard */; };
+		A214422D1BC250AD0058BC99 /* 20148114315183804.gif in Resources */ = {isa = PBXBuildFile; fileRef = A214422C1BC250AD0058BC99 /* 20148114315183804.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23AB157288497460BD3EE97F /* libPods-GifExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A01604F9F86F2B94CA67DE /* Pods-GifExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifExample/Pods-GifExample.release.xcconfig"; sourceTree = "<group>"; };
 		A21442041BC218710058BC99 /* GifExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21442081BC218710058BC99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A214420A1BC218710058BC99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		A21442131BC218710058BC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21442161BC218710058BC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21442181BC218710058BC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214422C1BC250AD0058BC99 /* 20148114315183804.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20148114315183804.gif; sourceTree = "<group>"; };
+		DC36A4A49BB639764C19BD26 /* Pods-GifExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifExample/Pods-GifExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724DCCF9252FF12661FA6066 /* libPods-GifExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8113E1F60A9043BDA5CC138D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC36A4A49BB639764C19BD26 /* Pods-GifExample.debug.xcconfig */,
+				40A01604F9F86F2B94CA67DE /* Pods-GifExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A21441FB1BC218710058BC99 = {
 			isa = PBXGroup;
 			children = (
+				A214422B1BC250AD0058BC99 /* Resources */,
 				A21442061BC218710058BC99 /* Sources */,
 				A21442051BC218710058BC99 /* Products */,
+				8113E1F60A9043BDA5CC138D /* Pods */,
+				AB39DF5B93340EACF6001974 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +98,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A214422B1BC250AD0058BC99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A214422C1BC250AD0058BC99 /* 20148114315183804.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB39DF5B93340EACF6001974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23AB157288497460BD3EE97F /* libPods-GifExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A214421B1BC218710058BC99 /* Build configuration list for PBXNativeTarget "GifExample" */;
 			buildPhases = (
+				61698E6A320EFEA1E59B4D1D /* Check Pods Manifest.lock */,
 				A21442001BC218710058BC99 /* Sources */,
 				A21442011BC218710058BC99 /* Frameworks */,
 				A21442021BC218710058BC99 /* Resources */,
+				B63AFFD7E817198EE353BC18 /* Embed Pods Frameworks */,
+				0771EDB85E291667383276BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,10 +177,59 @@
 				A21442171BC218710058BC99 /* LaunchScreen.storyboard in Resources */,
 				A21442141BC218710058BC99 /* Assets.xcassets in Resources */,
 				A21442121BC218710058BC99 /* Main.storyboard in Resources */,
+				A214422D1BC250AD0058BC99 /* 20148114315183804.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0771EDB85E291667383276BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifExample/Pods-GifExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61698E6A320EFEA1E59B4D1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B63AFFD7E817198EE353BC18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifExample/Pods-GifExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A21442001BC218710058BC99 /* Sources */ = {
@@ -261,6 +348,7 @@
 		};
 		A214421C1BC218710058BC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC36A4A49BB639764C19BD26 /* Pods-GifExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
@@ -272,6 +360,7 @@
 		};
 		A214421D1BC218710058BC99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A01604F9F86F2B94CA67DE /* Pods-GifExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
