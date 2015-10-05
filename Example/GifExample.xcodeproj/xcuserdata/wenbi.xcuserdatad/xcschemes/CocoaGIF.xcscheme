@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A21442031BC218710058BC99"
-               BuildableName = "Example.app"
+               BuildableName = "GifExample.app"
                BlueprintName = "GifExample"
                ReferencedContainer = "container:GifExample.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A21442031BC218710058BC99"
-            BuildableName = "Example.app"
+            BuildableName = "GifExample.app"
             BlueprintName = "GifExample"
             ReferencedContainer = "container:GifExample.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A21442031BC218710058BC99"
-            BuildableName = "Example.app"
+            BuildableName = "GifExample.app"
             BlueprintName = "GifExample"
             ReferencedContainer = "container:GifExample.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A21442031BC218710058BC99"
-            BuildableName = "Example.app"
+            BuildableName = "GifExample.app"
             BlueprintName = "GifExample"
             ReferencedContainer = "container:GifExample.xcodeproj">
          </BuildableReference>
