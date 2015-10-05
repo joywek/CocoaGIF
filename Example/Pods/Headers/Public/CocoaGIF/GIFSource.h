@@ -1,0 +1,1 @@
+../../../../../CocoaGIF/GIFSource.h
