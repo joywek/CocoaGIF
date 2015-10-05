@@ -1,1 +1,0 @@
-../../../../../CocoaGIF/GIFView.h

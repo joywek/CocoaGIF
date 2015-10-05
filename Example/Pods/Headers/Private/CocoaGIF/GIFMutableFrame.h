@@ -1,1 +1,0 @@
-../../../../../CocoaGIF/GIFMutableFrame.h
