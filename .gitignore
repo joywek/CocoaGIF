@@ -3,3 +3,8 @@ Pods
 Podfile.lock
 *.xcworkspace
 
+.DS_Store
+CocoaGIF/.DS_Store
+Example/.DS_Store
+Example/Resources/.DS_Store
+Example/Sources/.DS_Store
